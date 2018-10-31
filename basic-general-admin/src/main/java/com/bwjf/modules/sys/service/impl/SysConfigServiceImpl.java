@@ -10,6 +10,7 @@ import com.bwjf.modules.sys.dao.SysConfigDao;
 import com.bwjf.modules.sys.entity.SysConfigEntity;
 import com.bwjf.modules.sys.redis.SysConfigRedis;
 import com.bwjf.modules.sys.service.SysConfigService;
+import com.google.gson.Gson;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
